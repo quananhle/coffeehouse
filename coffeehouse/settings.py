@@ -106,13 +106,25 @@ AUTHENTICATION_BACKENDS = [
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'postgres',
+#         'USER': 'postgres',
+#         'PASSWORD': os.getenv('DATABASE_PASSWORD'),
+#         'HOST': os.getenv('DATABASE_HOST'),
+#         'PORT': 5432
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'quan_le',
         'USER': 'postgres',
-        'PASSWORD': os.getenv('DATABASE_PASSWORD'),
-        'HOST': os.getenv('DATABASE_HOST'),
+        'PASSWORD': 'buydogecoin',
+        'HOST': '127.0.0.1',
         'PORT': 5432
     }
 }
